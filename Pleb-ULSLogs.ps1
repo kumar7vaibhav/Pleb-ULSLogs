@@ -88,3 +88,5 @@ elseif ($ServerChoice -eq "N" -or $ServerChoice -eq "n") {
 else {
     Write-Host "Invalid choice. Please enter 'Y' for Yes or 'N' for No."
 }
+
+$null = Read-Host "Enter to close - "
