@@ -21,7 +21,6 @@ Press Enter when done...
 - Clear Log level and place an end marker for the script.
 - Ask user if they require logs from specific server.
   - If yes, then enter the index of listed servers.
-- Last step is to donwload and initiate [Anthony's Script](https://github.com/acasilla/CollectULSLogs)
 ```
 Starting - Part 2 [End marker, Clear Log Level, Start main script]
 Do you want logs from specific servers? (y/n): y
@@ -29,4 +28,13 @@ SharePoint Servers in the farm -
 1. spapp | Role: ApplicationWithSearch
 2. spwfe | Role: WebFrontEndWithDistributedCache
 Enter a list of servers separated by commas (e.g., 1, 2, 3)::
+```
+## Phase 4
+- Donwload [Anthony's Script](https://github.com/acasilla/CollectULSLogs)
+- Add list of selected servers in default command along with start and end marker.
+- Initiate [Anthony's Script](https://github.com/acasilla/CollectULSLogs)
+- Ask for input before closing shell.
+```
+Finished Copying\Zipping files.. Please upload the zip files located at:  C:\
+Enter to close - :
 ```
