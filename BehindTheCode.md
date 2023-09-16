@@ -10,7 +10,7 @@ Finished - Part 1
 ```
 
 ## Phase 2
-Script wait for the user to recreate the error on the browser/applciation.
+Script waits for the user to recreate the error on the browser/applciation.
 Press enter to continue to next phase.
 ```
 Please recreate the error and collect correlation ID (if any)
